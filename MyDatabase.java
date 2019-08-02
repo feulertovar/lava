@@ -15,7 +15,7 @@ public class MyDatabase {
 			// Step 1: Allocate a database 'Connection' object
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/lavaflo?useTimezone=true&serverTimezone=UTC",
-					"root", "Tron00@@");
+					"root", "testpwd");
 
 		} catch (SQLException ex) {
 			ex.printStackTrace();
